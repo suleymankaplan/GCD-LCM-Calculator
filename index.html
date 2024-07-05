@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LCM GCD Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-box">
+        <div class="content">
+            <h3>LCM GCD CALCULATOR</h3>
+            <div class="input-box">
+                <input type="text" class="input">
+                <button class="button" onclick="deleteInput()">Add Number</button>
+                <button class="button" onclick="buttonClick()">Calc</button>
+                <button class="button" onclick="resetNumbers()">Reset</button>
+            </div>
+            <div class="value-box">
+                <div class="gcd-box boxes">
+                    <h3>GCD</h3>
+                    <p class="gcd"></p>
+                </div>
+                <div class="numbers-box boxes">
+                    <h3>NUMBERS</h3>
+                    <ul class="ulnum"></ul>
+                </div>
+                <div class="lcm-box boxes">
+                    <h3>LCM</h3>
+                    <p class="lcm"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
