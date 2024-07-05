@@ -1,1 +1,1 @@
-I wrote an gcd lcm calculator
+I wrote a gcd lcm calculator
